@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, serif;
+    font-size: 16px;
+    margin: 0;
+}
+#main {
+    background-image: url(./images/header_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+h2 {
+    margin: 0;
+    font-size: 35px;
+    color: #8d6ad7;
+}
+input {
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+}
+.logo {
+    font-weight: bold;
+    color: #d9ba4d;
+}
+/*header*/
+
+#header_container, #course_container, 
+#favourite_course_container,#about_course_container,
+#footer_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#header {
+    padding: 35px 0;
+    border-bottom: 2px solid #9e79dc;
+}
+#header_logo {
+    margin-right: 280px;
+}
+.header_link {
+    text-decoration: none;
+    color: #d2bcec;
+
+    margin-right: 50px;
+}
+
+/*course*/
+
+#course {
+    padding: 150px 0 200px 0;
+}
+#course_title {
+    font-size: 45px;
+    color: #ffffff;
+
+    margin: 0;
+    max-width: 455px;
+} 
+#course_info {
+    color: #ffffff;
+
+    margin-top: 90px;
+}
+#star {
+    vertical-align: bottom;
+} 
+#course_button_subscribe {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+
+    margin-top: 100px;
+}
+
+/*favourite*/
+
+#favourite_course_title {
+    margin-top: 140px;
+}
+#favourite_course_list {    
+    margin-top: 75px;
+    margin-bottom: 140px;
+}
+.favourite_course_item {
+    margin-top: 20px;
+}
+
+.favourite_course_item_text {
+    
+    color: #311b5e;
+} 
+
+/*about_course*/
+
+ #about_course_wrapper {
+ background-image: url(./images/footer_bg.png);
+ background-size: cover;
+ background-position: center;
+
+ padding: 140px 0 0 0;
+}
+#about_course_container, #footer_container {
+    text-align: center;
+}
+#about_course {
+    max-width: 990px;
+    background-color: #fff;
+    border-radius: 20px;
+
+    margin: 0 auto;
+    padding: 60px 0 40px 0;
+}
+
+.about_course_text {
+    color: #311b5e;
+    line-height: 1.5;
+    
+    max-width: 595px;
+    margin: 0 auto;
+    margin-top: 35px;
+} 
+#about_course_text_chernov {
+    font-weight: bold;
+}
+#about_course_button_subscribe {
+    color: #b180e4;
+    border: 2px solid #b180e4;
+
+    margin-top: 35px;
+}
+
+/*footer*/
+
+#footer {
+    border-top: 2px solid #9e79dc;
+
+    margin-top: 140px;
+    padding: 45px 0;
+}
