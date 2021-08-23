@@ -15,12 +15,18 @@ h2 {
 }
 input {
     background-color: transparent;
-    width: 200px;
-    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 224px;
+    height: 60px;
 }
 .logo {
     font-weight: bold;
-    color: #d9ba4d;
+    color: #f5da0b;
+}
+.star {
+    vertical-align: bottom;
+    margin-right: 12px;
 }
 /*header*/
 
@@ -32,14 +38,15 @@ input {
 }
 #header {
     padding: 35px 0;
-    border-bottom: 2px solid #9e79dc;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 #header_logo {
     margin-right: 280px;
 }
 .header_link {
     text-decoration: none;
-    color: #d2bcec;
+    color: #ede0f8;
+    font-weight: bold;
 
     margin-right: 50px;
 }
@@ -60,9 +67,6 @@ input {
     color: #ffffff;
 
     margin-top: 90px;
-}
-#star {
-    vertical-align: bottom;
 } 
 #course_button_subscribe {
     color: #ffffff;
@@ -73,17 +77,15 @@ input {
 
 /*favourite*/
 
-#favourite_course_title {
-    margin-top: 140px;
+#favourite_course {
+    padding: 140px 0;
 }
 #favourite_course_list {    
-    margin-top: 75px;
-    margin-bottom: 140px;
+    margin-top: 68px;
 }
 .favourite_course_item {
-    margin-top: 20px;
+    margin-top: 15px;
 }
-
 .favourite_course_item_text {
     
     color: #311b5e;
@@ -109,14 +111,15 @@ input {
     margin: 0 auto;
     padding: 60px 0 40px 0;
 }
-
+#about_course_title {
+    margin-bottom: 40px;
+}
 .about_course_text {
     color: #311b5e;
     line-height: 1.5;
     
     max-width: 595px;
-    margin: 0 auto;
-    margin-top: 35px;
+    margin: 0 auto 30px auto;
 } 
 #about_course_text_chernov {
     font-weight: bold;
@@ -125,13 +128,13 @@ input {
     color: #b180e4;
     border: 2px solid #b180e4;
 
-    margin-top: 35px;
+    margin-top: 10px;
 }
 
 /*footer*/
 
 #footer {
-    border-top: 2px solid #9e79dc;
+    border-top: 1px solid rgba(255,255,255,0.2);;
 
     margin-top: 140px;
     padding: 45px 0;
